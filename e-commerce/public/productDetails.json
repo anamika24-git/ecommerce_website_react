@@ -1,0 +1,157 @@
+{
+    "productDetailsList": [
+      {
+        "id": 1,
+        "title": "Blue Traditional Engineered Wood Wall Art",
+        "description": "Blue Traditional Engineered Wood Wall Art",
+        "netQuantity": "1 N",
+        "productDimensions": "150.0 cm H x 76.0 cm W x 2.0 cm L",
+        "packageContains": "1 Modern Engineered Wood",
+        "countryOfOrigin": "India",
+        "imageUrl": "https://www.ulcdn.net/images/products/830674/product/VDWDWA33BL83436_LP.jpg?1688387721",
+        "mrp": "₹1,900 (Incl. of all taxes)",
+        "color": "Brown",
+        "soldBy": "Comfort Living Pvt. Ltd.",
+        "rating": 4.5,
+        "customerCare": {
+          "address": "Comfort Living Pvt. Ltd., 123 Main Street, Cityville, Pincode-123456, India",
+          "telephoneNumber": "+91-1234567890",
+          "email": "customercare@comfortliving.com"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Aspen Engineered Wood Queen Size Drawer Storage Upholstered Bed In Finish",
+        "description": "Aspen Engineered Wood Queen Size Drawer Storage Upholstered Bed In Finish",
+        "netQuantity": "1 N",
+        "productDimensions": "180.0 cm L x 90.0 cm W x 75.0 cm H",
+        "packageContains": "1 Engineered Wood Queen Size Drawer Storage",
+        "countryOfOrigin": "India",
+        "imageUrl": "https://www.ulcdn.net/images/products/808242/product/BostonCTKLP.png?1683920659",
+        "mrp": "₹28,000 (Incl. of all taxes)",
+        "color": "Walnut",
+        "soldBy": "Crafted Woods Pvt. Ltd.",
+        "rating": 4.0,
+        "customerCare": {
+          "address": "Crafted Woods Pvt. Ltd., 456 Oak Avenue, Townsville, Pincode-789012, India",
+          "telephoneNumber": "+91-9876543210",
+          "email": "customercare@craftedwoods.com"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Mika Leatherette Study Chair In Scarlet Red Colour",
+        "description": "Mika Leatherette Study Chair In Scarlet Red Colour",
+        "netQuantity": "1 N",
+        "productDimensions": "120.0 cm L x 60.0 cm W x 40.0 cm H",
+        "packageContains": "1 Study Chair",
+        "countryOfOrigin": "India",
+        "imageUrl": "https://www.ulcdn.net/images/products/809344/product/Mika_Chair_Red_LP.png?1683923731",
+        "mrp": "₹12,278 (Incl. of all taxes)",
+        "color": "Black",
+        "soldBy": "Urban Designs Pvt. Ltd.",
+        "rating": 4.2,
+        "customerCare": {
+          "address": "Urban Designs Pvt. Ltd., 789 Main Boulevard, Metropolis, Pincode-567890, India",
+          "telephoneNumber": "+91-8765432109",
+          "email": "customercare@urbandesigns.com"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Metal Swing With Stand",
+        "description": "Metal Swing With Stand",
+        "netQuantity": "1 N",
+        "productDimensions": "200.0 cm L x 160.0 cm W x 40.0 cm H",
+        "packageContains": "1 Metal Swing With Stand",
+        "countryOfOrigin": "India",
+        "imageUrl": "https://www.ulcdn.net/images/products/837058/product/Piver_Chair_with_Long_Chain_Teal_LP.jpg?1690539187",
+        "mrp": "₹28,121 (Incl. of all taxes)",
+        "color": "White",
+        "soldBy": "Dreamy Bedrooms Pvt. Ltd.",
+        "rating": 4.8,
+        "customerCare": {
+          "address": "Dreamy Bedrooms Pvt. Ltd., 321 Dream Street, Reverie City, Pincode-345678, India",
+          "telephoneNumber": "+91-7654321098",
+          "email": "customercare@dreamybedrooms.com"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Twain Engineered Wood Study Table In Cherry Melamine Finish",
+        "description": "Twain Engineered Wood Study Table In Cherry Melamine Finish",
+        "netQuantity": "1 N",
+        "productDimensions": "90.0 cm H x 75.0 cm W x 80.0 cm D",
+        "packageContains": "1 Engineered Wood Study Table",
+        "countryOfOrigin": "India",
+        "imageUrl": "https://www.ulcdn.net/images/products/809666/product/Twain_Study_Table_LP.png?1683924528",
+        "mrp": "₹18,000 (Incl. of all taxes)",
+        "color": "Beige",
+        "soldBy": "Timeless Furnishings Pvt. Ltd.",
+        "rating": 4.3,
+        "customerCare": {
+          "address": "Timeless Furnishings Pvt. Ltd., 567 Nostalgia Lane, Memory Town, Pincode-234567, India",
+          "telephoneNumber": "+91-6543210987",
+          "email": "customercare@timelessfurnishings.com"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Iwaki Bookshelf/Display Cabinet With Glass Door",
+        "description": "Iwaki Bookshelf/Display Cabinet With Glass Door",
+        "netQuantity": "1 N",
+        "productDimensions": "200.0 cm H x 150.0 cm W x 60.0 cm D",
+        "packageContains": "1 Classic Bookshelf",
+        "countryOfOrigin": "India",
+        "imageUrl": "https://www.ulcdn.net/images/products/809189/product/Iwaki_Bookshelf_With_Glass_Door_Columbian_Walnut_LP.png?1683923327",
+        "mrp": "₹25,861 (Incl. of all taxes)",
+        "color": "Mahogany",
+        "soldBy": "Heritage Furniture Pvt. Ltd.",
+        "rating": 4.5,
+        "customerCare": {
+          "address": "Heritage Furniture Pvt. Ltd., 789 Heritage Avenue, Tradition Town, Pincode-345678, India",
+          "telephoneNumber": "+91-8765432109",
+          "email": "customercare@heritagefurniture.com"
+        }
+      },
+      {
+        "id": 7,
+        "title": "Kemp Metal Console Table In Black Finish",
+        "description": "Kemp Metal Console Table In Black Finish",
+        "netQuantity": "1 N",
+        "productDimensions": "180.0 cm H x 100.0 cm W x 40.0 cm D",
+        "packageContains": "1 Metal Console Table",
+        "countryOfOrigin": "India",
+        "imageUrl": "https://www.ulcdn.net/images/products/368384/product/Ray_Console_Table_LP.jpg?1628261696",
+        "mrp": "₹23,312 (Incl. of all taxes)",
+        "color": "Weathered Oak",
+        "soldBy": "Country Crafters Pvt. Ltd.",
+        "rating": 4.0,
+        "customerCare": {
+          "address": "Country Crafters Pvt. Ltd., 234 Rural Lane, Countryside, Pincode-456789, India",
+          "telephoneNumber": "+91-9876543210",
+          "email": "customercare@countrycrafters.com"
+        }
+      },
+      {
+        "id": 8,
+        "title": "Yarine Floor Lamp",
+        "description": "Yarine Floor Lamp",
+        "netQuantity": "1 N",
+        "productDimensions": "120.0 cm L x 60.0 cm W x 75.0 cm H",
+        "packageContains": "1 Floor Lamp",
+        "countryOfOrigin": "India",
+        "imageUrl": "https://www.ulcdn.net/images/products/338758/product/Yarine_Floor_Lamp_Walnut_LP.JPG?1621322451",
+        "mrp": "₹2,307 (Incl. of all taxes)",
+        "color": "Gray",
+        "soldBy": "Office Elegance Pvt. Ltd.",
+        "rating": 4.7,
+        "customerCare": {
+          "address": "Office Elegance Pvt. Ltd., 876 Business Tower, Corporate City, Pincode-567890, India",
+          "telephoneNumber": "+91-7654321098",
+          "email": "customercare@officeelegance.com"
+        }
+      }
+    ]
+  }
+  

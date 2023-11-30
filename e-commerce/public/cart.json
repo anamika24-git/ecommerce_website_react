@@ -1,0 +1,77 @@
+{
+    "cart": [
+      {
+        "id": 1,
+        "title": "Blue Traditional Engineered Wood Wall Art",
+        "description": "Blue Traditional Engineered Wood Wall Art",
+        "color": "Brown",
+        "price": 1900,
+        "deliveryDate": "2023-12-01",
+        "imageUrl": "https://www.ulcdn.net/images/products/830674/product/VDWDWA33BL83436_LP.jpg?1688387721"
+      },
+      {
+        "id": 2,
+        "title": "Aspen Engineered Wood Queen Size Drawer Storage Upholstered Bed In Finish",
+        "description": "Aspen Engineered Wood Queen Size Drawer Storage Upholstered Bed In Finish",
+        "color": "Walnut",
+        "price": 28000,
+        "deliveryDate": "2023-12-05",
+        "imageUrl": "https://www.ulcdn.net/images/products/808242/product/BostonCTKLP.png?1683920659"
+      },
+      {
+        "id": 3,
+        "title": "Mika Leatherette Study Chair In Scarlet Red Colour",
+        "description": "Mika Leatherette Study Chair In Scarlet Red Colour",
+        "color": "Black",
+        "price": 12278,
+        "deliveryDate": "2023-12-03",
+        "imageUrl": "https://www.ulcdn.net/images/products/809344/product/Mika_Chair_Red_LP.png?1683923731"
+      },
+      {
+        "id": 4,
+        "title": "Metal Swing With Stand",
+        "description": "Metal Swing With Stand",
+        "color": "White",
+        "price": 28121,
+        "deliveryDate": "2023-12-10",
+        "imageUrl": "https://www.ulcdn.net/images/products/837058/product/Piver_Chair_with_Long_Chain_Teal_LP.jpg?1690539187"
+      },
+      {
+        "id": 5,
+        "title": "Twain Engineered Wood Study Table In Cherry Melamine Finish",
+        "description": "Twain Engineered Wood Study Table In Cherry Melamine Finish",
+        "color": "Beige",
+        "price": 18000,
+        "deliveryDate": "2023-12-07",
+        "imageUrl": "https://www.ulcdn.net/images/products/809666/product/Twain_Study_Table_LP.png?1683924528"
+      },
+      {
+        "id": 6,
+        "title": "Iwaki Bookshelf/Display Cabinet With Glass Door",
+        "description": "Iwaki Bookshelf/Display Cabinet With Glass Door",
+        "color": "Mahogany",
+        "price": 25861,
+        "deliveryDate": "2023-12-12",
+        "imageUrl": "https://www.ulcdn.net/images/products/809189/product/Iwaki_Bookshelf_With_Glass_Door_Columbian_Walnut_LP.png?1683923327"
+      },
+      {
+        "id": 7,
+        "title": "Kemp Metal Console Table In Black Finish",
+        "description": "Kemp Metal Console Table In Black Finish",
+        "color": "Weathered Oak",
+        "price": 23312,
+        "deliveryDate": "2023-12-08",
+        "imageUrl": "https://www.ulcdn.net/images/products/368384/product/Ray_Console_Table_LP.jpg?1628261696"
+      },
+      {
+        "id": 8,
+        "title": "Yarine Floor Lamp",
+        "description": "Yarine Floor Lamp",
+        "color": "Gray",
+        "price": 2307,
+        "deliveryDate": "2023-12-15",
+        "imageUrl": "https://www.ulcdn.net/images/products/338758/product/Yarine_Floor_Lamp_Walnut_LP.JPG?1621322451"
+      } 
+  ]
+  }
+  

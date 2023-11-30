@@ -1,62 +1,61 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "title": "Blue Traditional Engineered Wood Wall Art",
-        "imageUrl": "https://www.ulcdn.net/images/products/830674/product/VDWDWA33BL83436_LP.jpg?1688387721",
-        "price": "1999",
-        "manufacturer": "Inephos"
-      },
-      {
-        "id": 2,
-        "title": "Aspen Engineered Wood Queen Size Drawer Storage Upholstered Bed In Finish",
-        "imageUrl": "https://www.ulcdn.net/images/products/808242/product/BostonCTKLP.png?1683920659",
-        "price": "28,000",
-        "manufacturer": "Aara Woods"
-      },
-      {
-        "id": 3,
-        "title": "Mika Leatherette Study Chair In Scarlet Red Colour",
-        "imageUrl": "https://www.ulcdn.net/images/products/809344/product/Mika_Chair_Red_LP.png?1683923731",
-        "price": "12,278",
-        "manufacturer": "Aara Woods"
-      },
-      {
-        "id": 4,
-        "title": "Metal Swing With Stand",
-        "imageUrl": "https://www.ulcdn.net/images/products/837058/product/Piver_Chair_with_Long_Chain_Teal_LP.jpg?1690539187",
-        "price": "28,121",
-        "manufacturer": "CarryBird"
-      },
-      {
-        "id": 5,
-        "title": "Twain Engineered Wood Study Table In Cherry Melamine Finish",
-        "imageUrl": "https://www.ulcdn.net/images/products/809666/product/Twain_Study_Table_LP.png?1683924528",
-        "price": "18,000",
-        "manufacturer": "Timeless Furnishings"
-      },
-      {
-        "id": 6,
-        "title": "Iwaki Bookshelf/Display Cabinet With Glass Door",
-        "imageUrl": "https://www.ulcdn.net/images/products/809189/product/Iwaki_Bookshelf_With_Glass_Door_Columbian_Walnut_LP.png?1683923327",
-        "price": "25,861",
-        "manufacturer": "Cart Woods"
-      },
-      {
-        "id": 7,
-        "title": "Kemp Metal Console Table In Black Finish",
-        "imageUrl": "https://www.ulcdn.net/images/products/368384/product/Ray_Console_Table_LP.jpg?1628261696",
-        "price": "23,312",
-        "manufacturer": "Country Crafters"
-      },
-      {
-        "id": 8,
-        "title": "Yarine Floor Lamp",
-        "imageUrl": "https://www.ulcdn.net/images/products/338758/product/Yarine_Floor_Lamp_Walnut_LP.JPG?1621322451",
-        "price": "2,307",
-        "manufacturer": "Office Elegance"
-      }
-     
-    ]
-  }
-  
+  "products": [
+    {
+      "id": 1,
+      "title": "Blue Traditional Engineered Wood Wall Art",
+      "imageUrl": "https://www.ulcdn.net/images/products/830674/product/VDWDWA33BL83436_LP.jpg?1688387721",
+      "price": "1999",
+      "manufacturer": "Inephos"
+    },
+    {
+      "id": 2,
+      "title": "Aspen Engineered Wood Queen Size Drawer Storage Upholstered Bed In Finish",
+      "imageUrl": "https://www.ulcdn.net/images/products/808242/product/BostonCTKLP.png?1683920659",
+      "price": "28,000",
+      "manufacturer": "Aara Woods"
+    },
+    {
+      "id": 3,
+      "title": "Mika Leatherette Study Chair In Scarlet Red Colour",
+      "imageUrl": "https://www.ulcdn.net/images/products/809344/product/Mika_Chair_Red_LP.png?1683923731",
+      "price": "12,278",
+      "manufacturer": "Aara Woods"
+    },
+    {
+      "id": 4,
+      "title": "Metal Swing With Stand",
+      "imageUrl": "https://www.ulcdn.net/images/products/837058/product/Piver_Chair_with_Long_Chain_Teal_LP.jpg?1690539187",
+      "price": "28,121",
+      "manufacturer": "CarryBird"
+    },
+    {
+      "id": 5,
+      "title": "Twain Engineered Wood Study Table In Cherry Melamine Finish",
+      "imageUrl": "https://www.ulcdn.net/images/products/809666/product/Twain_Study_Table_LP.png?1683924528",
+      "price": "18,000",
+      "manufacturer": "Timeless Furnishings"
+    },
+    {
+      "id": 6,
+      "title": "Iwaki Bookshelf/Display Cabinet With Glass Door",
+      "imageUrl": "https://www.ulcdn.net/images/products/809189/product/Iwaki_Bookshelf_With_Glass_Door_Columbian_Walnut_LP.png?1683923327",
+      "price": "25,861",
+      "manufacturer": "Cart Woods"
+    },
+    {
+      "id": 7,
+      "title": "Kemp Metal Console Table In Black Finish",
+      "imageUrl": "https://www.ulcdn.net/images/products/368384/product/Ray_Console_Table_LP.jpg?1628261696",
+      "price": "23,312",
+      "manufacturer": "Country Crafters"
+    },
+    {
+      "id": 8,
+      "title": "Yarine Floor Lamp",
+      "imageUrl": "https://www.ulcdn.net/images/products/338758/product/Yarine_Floor_Lamp_Walnut_LP.JPG?1621322451",
+      "price": "2,307",
+      "manufacturer": "Office Elegance"
+    }
+   
+  ]
+}

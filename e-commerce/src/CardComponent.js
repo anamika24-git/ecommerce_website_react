@@ -9,7 +9,7 @@ function CardComponent(props) {
         <Card.Text>By {props.manufacturer} </Card.Text>
         <Card.Text>Price: {props.price} </Card.Text>
       </Card.Body>
-      <Button variant="primary">View Details</Button>
+      <Button variant="primary" onClick={() => props.handleNavigate(props.id)}>View Details</Button>
     </Card>
   );
 }

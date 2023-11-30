@@ -6,32 +6,31 @@ import { Star, StarFill } from 'react-bootstrap-icons';
 class ProductDetails extends Component {
   constructor(props) {
     super(props);
-    this.state = { products: [] };
+    this.state = { product: {}, id: 0 };
   }
 
   componentDidMount() {
-    fetch('http://localhost:8080/employees')
+    fetch('/productDetails.json')
       .then((res) => res.json())
       .then((json) => {
-        console.log("data" , json)
-        // this.setState({
-        //   products: json.productDetails,
-        // });
+        console.log("data", json)
+        const { id } = this.props.location.state || {};
+        if (id) {
+          const product = json.productDetails.filter((item) => item.id === id);
+          this.setState({
+            product: product[0],
+            id: id
+          });
+        }
       });
   }
 
-  addToCart = () => {
-    this.props.navigate('/cart', { state: { someData: id } });
-  };
-
-  handleNavigate = (id) => {
-    this.props.navigate('/cart', { state: { someData: id } });
+  handleNavigate = () => {
+    this.props.navigate('/cart', { state: { id: this.state.id } });
   };
 
   render() {
-    console.log('product state', this.state.products);
-    const { someData } = this.props.location.state || {};
-    console.log('someData', someData);
+    const { product } = this.state;
     return (
       <Container style={{ marginTop: '100px' }}>
         <Row>
@@ -40,8 +39,9 @@ class ProductDetails extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src="https://www.ulcdn.net/images/products/314083/slide/666x363/Mika_Chair_White_1.jpg?1612930923"
+                src={product.imageUrl}
                 alt="Study Chair"
+                height={'400px'}
               />
             </Card>
             <div
@@ -51,7 +51,7 @@ class ProductDetails extends Component {
                 justifyContent: 'space-around',
               }}
             >
-              <Button variant="primary" size="lg" onClick={() => this.handleNavigate(1)}>
+              <Button variant="primary" size="lg" onClick={() => this.handleNavigate()}>
                 Add to Cart
               </Button>
               <Button variant="warning" size="lg">
@@ -60,60 +60,53 @@ class ProductDetails extends Component {
             </div>
           </Col>
           <Col md={6}>
-            <h4>Mika Leatherette Study Chair In Scarlet Red Colour</h4>
+            <h4>{product.description}</h4>
             <h3 style={{ color: 'orange' }}>Product Details</h3>
             <ul>
               <li>
                 <span>
                   <b> Net Quantity :</b>
                 </span>
-                <span>1 N</span>
-              </li>
-              <li>
-                <span>
-                  <b> Net Quantity :</b>
-                </span>
-                <span>1 N</span>
+                <span>{product.netQuantity}</span>
               </li>
               <li>
                 <span>
                   <b> Product Dimensions:</b>
                 </span>
-                <span>150.0 cm H x 76.0 cm W x 2.0 cm L</span>
+                <span>{product.productDimensions}</span>
               </li>
               <li>
                 <span>
                   <b> Package Contains:</b>
                 </span>
-                <span>1 Multiple Frames Wall Painting</span>
+                <span>{product.packageContains}</span>
               </li>
               <li>
                 <span>
                   <b> Country of Origin:</b>
                 </span>
-                <span>India</span>
+                <span>{product.countryOfOrigin}</span>
               </li>
               <li>
                 <span>
                   <b>MRP:</b>
                 </span>
                 <span>
-                  <b>₹12,278 (Incl. of all taxes)</b>
+                  <b>{product.mrp}</b>
                 </span>
               </li>
               <li>
                 <span>
                   <b>Color:</b>
                 </span>
-                <span>Red</span>
+                <span>{product.color}</span>
               </li>
               <li>
                 <span>
                   <b>Sold By:</b>
                 </span>
                 <span>
-                  Reliance Retail Limited, 3rd Floor, Court House, Lokmanya
-                  Tilak Marg, Dhobi Talao, Mumbai-400026
+                  {product.soldBy}
                 </span>
               </li>
             </ul>
@@ -130,13 +123,11 @@ class ProductDetails extends Component {
                 <address>
                   <h4>Contact Customer-care</h4>
                   <strong>
-                    Reliance Retail Limited, 1st, 2nd & 3rd Floor, No. 259 and
-                    276 Amarjyothi, Basaveshwara HBCS Layout, Domlur, Bengaluru,
-                    560071.
+                    {product?.customerCare?.address}
                   </strong>
                   <br />
-                  <abbr title="Phone">Telephone: </abbr> 080-69807777 <br />
-                  <a href="mailto:#">hello@abc.com</a>
+                  <abbr title="Phone">Telephone: </abbr>{product?.customerCare?.telephoneNumber} <br />
+                  <a href="mailto:#">{product?.customerCare?.email}</a>
                 </address>
               </Col>
             </Row>

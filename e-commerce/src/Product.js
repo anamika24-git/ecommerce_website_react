@@ -19,7 +19,7 @@ class Product extends Component {
   }
 
   handleNavigate = (id) => {
-    this.props.navigate('/productDetails', { state: { someData: id } });
+    this.props.navigate('/productDetails', { state: { id } });
   };
 
   render() {
